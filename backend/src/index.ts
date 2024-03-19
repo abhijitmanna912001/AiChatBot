@@ -2,7 +2,7 @@ import express from "express";
 
 const app = express();
 
-// middleware
+// middlewares
 app.use(express.json());
 
 // connections and listeners
