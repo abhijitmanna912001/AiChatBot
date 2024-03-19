@@ -1,3 +1,7 @@
-console.log("This is a starter kit for this amazing project. With 💓 By Indian Coders");
-export {};
+import express from "express";
+const app = express();
+// middleware
+app.use(express.json());
+// connections and listeners
+app.listen(5000, () => console.log("Server Open"));
 //# sourceMappingURL=index.js.map
